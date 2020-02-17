@@ -1,0 +1,676 @@
+/*-------BASIC PAGE SETUP-----*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color:#fff;
+	color: #555;
+	font-family: 'lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.body {
+    font-family: 'Bangers', cursive;
+    font-family: 'Molle', cursive;
+} 
+
+
+
+
+/*----JUMBOTRON SECTION FOR THE HEADER------*/
+
+.navbar-brand {
+	color: #60e9e2 !important;
+	font-weight: 800;
+	font-family: 'Galada', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link:hover { 
+		color: #60e9e2 !important;
+		transition: 1s;
+}
+
+header {
+	border-radius: 0;
+}
+
+@media only screen and (max-width: 700px) {
+	.carousel-item {
+        height: 40vh;
+	}
+	
+} 
+
+
+
+
+/*======= STYLING FOR ALL THE LOGOS ========*/
+.logo-icon {
+	width: 5%;
+	margin-left: -5% !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo-icon { 
+		width: 10%;
+		margin-left: 0% !important;
+	}
+}
+
+@media only screen and (max-width: 465px) {
+  .logo-icon { 
+		margin-top: -5px !important;
+	}
+}
+
+.logo-name {
+	margin-left: 14px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo-name {
+	  margin-left: 8px;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .logo-icon { 
+		margin-left: 5px !important;
+	}
+}
+
+.modal-logos {
+	width: 10%;
+}
+
+
+
+
+
+/*=== STYLING FOR THE HEADER IMAGES ===*/
+
+.hero-img1 {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5) ), url(images/Dr.Gervais.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+	height: 90vh;
+	color:#fff;
+}
+
+@media only screen and (max-width: 374px) {
+	.hero-img1 {
+		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5) ), url(images/course_6.jpg);
+		background-position: center;
+		height: 90vh;
+	}
+} 
+
+.hero-img2 {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5) ), url(images/developers-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 90vh;
+	color:#fff;
+}
+
+.hero-img3 {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5) ), url(images/pc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 90vh;
+	color:#fff;
+}
+
+
+.main-caption {
+	position: absolute;
+	bottom: 0;
+	left: 24%;
+	top: 30%;
+	font-weight: 900px;
+}
+
+
+
+/*=== MEDIA QUERIES FOR MAIN CAPTION CONTAINER===*/
+
+@media only screen and (max-width: 730px) {
+	.main-caption {
+			left: 20%;
+			font-weight: 200;
+	}
+} 
+
+@media only screen and (max-width: 470px) {
+	.main-caption {
+			left: 10%;
+			font-weight: 100;
+	}
+} 
+
+@media only screen and (max-width: 406px) {
+	.main-caption {
+			left: 6%;
+	}
+} 
+
+
+
+
+/*=== MEDIA QUERIES FOR MAIN CAPTION TEXT ===*/
+
+@media only screen and (max-width: 730px) {
+	.main-caption-text {
+			left: 20%;
+			font-weight: 100;
+			font-size: 30px;
+	}
+} 
+
+@media only screen and (max-width: 332px) {
+	.main-caption-text {
+			font-size: 13px;
+			text-align: center;
+			font-weight: 300;	
+	}
+} 
+
+@media only screen and (max-width: 399px) {
+	.main-caption-text {
+			text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 470px) {
+	.main-caption-text {
+			font-size: 30px;
+			font-weight: 300;	
+	}
+} 
+
+
+
+/*=== MEDIA QUERIES FOR HERO TEXT ===*/
+
+.hero-text {
+	position: absolute;
+	bottom: 0;
+	left: 24%;
+	top: 50%;
+	font-weight: 20px;
+}
+
+@media only screen and (max-width: 730px) {
+	.hero-text{
+			left: 20%;
+	}
+} 
+
+@media only screen and (max-width: 436px) {
+	.hero-text{
+			left: 12%;
+			font-size: 25px;
+			margin-top: 40px;
+	}
+} 
+
+@media only screen and (max-width: 376px) {
+	.hero-text{
+			font-size: 22px;
+	}
+} 
+
+@media only screen and (max-width: 438px) {
+	.hero-text{
+			font-size: 20px;
+	}
+} 
+
+@media only screen and (max-width: 468px) {
+	.hero-text{
+			text-align: center;
+			left: 42px;
+			font-size: 25px;
+	}
+} 
+
+@media only screen and (max-width: 470px) {
+	.hero-text{
+			left: 3%;
+			text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 503px) {
+	.hero-text {
+			left: 2%;
+			text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 624px) {
+	.hero-text{
+			left: 5%;
+			text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 700px) {
+	.hero-text{
+			margin-top: 15px;
+	}
+} 
+
+
+
+
+/*========== SECTION FOR JUMBOTRON CONTENTS ==========*/
+
+
+.jumbotron {
+	background-color:rgba(240, 233, 233, 0.37);
+	position: relative;
+	margin-top: 6%;
+	margin-bottom: 8%;
+}
+
+.article-1 {
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: justify;
+}
+
+.article-2 {
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: justify;
+}
+
+.article-3 {
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 476px) {
+	.article-1{
+			margin-right: 10px;
+			margin-left: 10px;
+			text-align: left;
+	}
+} 
+
+@media only screen and (max-width: 476px) {
+	.article-2{
+			margin-right: 10px;
+			margin-left: 10px;
+			text-align: left;
+	}
+} 
+
+@media only screen and (max-width: 476px) {
+	.article-3{
+			margin-right: 8px;
+			margin-left: 10px;
+			text-align: left;
+	}
+} 
+
+.section-header {
+	text-transform: uppercase;
+	text-align: center;
+	color: #1c87c9;
+	margin-top: 7%;
+	margin-bottom: 2%;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+@media only screen and (max-width: 324px) {
+	.section-header {
+			font-size: 25px;
+			margin-top: 15%;
+			margin-left: 10px;
+			margin-right: 10px;
+			text-align: center;
+	}
+} 
+
+
+@media only screen and (max-width: 429px) {
+	.section-header {
+			font-size: 25px;
+			text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 372px) {
+	.section-header {
+			font-size: 20px;
+			margin-top: 15%;
+	}
+} 
+
+@media only screen and (max-width: 786px) {
+	.section-header {
+			font-size: 22px;
+			text-align: center;
+	}
+} 
+
+
+/*======== CAROUSEL SECTION =========*/
+
+.d-block-1 {
+	height: 100vh;
+}
+
+@media only screen and (max-width: 700px) {
+	.d-block-1 {
+      height: 40vh;
+	}
+	
+}
+
+
+/*======== MODAL SECTION FOR LINKS ========*/
+
+
+.modal-title {
+	color:#1c87c9;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 318px) {
+	.modal-title {
+			font-size: 20px;
+			color:#1c87c9;
+	}
+
+}
+
+.btn-follow {
+	left: 46% !important;
+	margin-top: 39px !important;
+	border-radius: 30px !important;
+	position: relative;
+	border-color: transparent !important;
+
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+    animation-name: example;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;		
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+	from {background-color:#007bff;}
+	to   {background-color: rgb(233, 146, 48);}
+}
+
+@media only screen and (max-width: 700px) {
+  .btn-folow {
+	    left: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .btn-follow {
+	    left: 36% !important;
+  }
+}
+
+
+
+
+
+/*=================== STYLING FOR THE ABOUT PAGE ==================*/
+
+
+
+/*========== STYLING FOR THE CARDS ON THE ABOUT PAGE ==========*/
+
+
+.card {
+	box-shadow: 2px 2px 2px 2px rgb(128, 124, 124);
+	transition: transform .5s;
+}
+
+.card:hover {
+	box-shadow: 2px 2px 2px 2px rgb(128, 124, 124);
+	cursor: pointer;
+	-ms-transform: scale(.95); /* IE 9 */
+  -webkit-transform: scale(.95); /* Safari 3-8 */
+  transform: scale(.95); 
+}
+
+.card-group {
+	margin-top: 7%;
+}
+
+.card-title {
+    color: #1c87c9;
+}
+
+.card-text {
+	color: black;
+	font-family: serif;
+	font-weight: 700;
+}
+
+
+/*===== STYLING FOR THE ABOUT SECTION CONTAINER ===*/
+
+.grid-of-6 { 
+	background-color: rgba(240, 233, 233, 0.37);
+	position: relative;
+	margin-top: 7%;
+}
+
+
+
+
+/*============ STYLING FOR THE ABOUT HEADER ================*/
+
+
+.about-me {
+	text-transform: uppercase;
+	text-align: center;
+	color: #1c87c9;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+/*===== MEDIA QUERY FOR ABOUT ME HEADER ======*/
+
+@media only screen and (max-width: 440px) {
+	.about-me {
+    font-size: 30px;
+	}
+}
+
+.about-info {
+	text-align: justify;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 440px) {
+	.about-info {
+    text-align: left;
+	}
+}
+
+.img-fluid {
+	background-attachment: fixed;
+	width: 100%;
+	opacity: 0.85;
+	transform: scale(1);
+	transition: transform 0.5s opacity 0.5s;
+	height: 80%;
+}
+
+.img-fluid:hover {
+	opacity: 1;
+	transform: scale(1.03);
+	transition: 1.5s;
+}
+
+
+.name {
+	text-transform: uppercase;
+	text-align: center;
+	color: #1c87c9;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 440px) {
+	.name {
+    font-size: 30px;
+	}
+}
+
+.line-clovis {
+	background-color: #1c87c9;
+	padding: 0.35px;
+	position: relative;
+	width: 73.5%;
+	align-self: center;
+}
+
+.line-about {
+	background-color: #1c87c9;
+	padding: 0.35px;
+	position: relative;
+	width: 63%;
+	align-self: center;
+}
+
+
+
+/*=============STYLING FOR THE PROJECTS PAGE=================*/
+
+.prgramming-technologies {
+	margin-left: 30px;
+}
+
+.project-header {
+	text-transform: uppercase;
+	text-align: center;
+	color: #1c87c9;
+	margin-bottom: 2%;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+@media only screen and (max-width: 324px) {
+	.project-header {
+			font-size: 25px;
+			margin-top: 15%;
+			margin-left: 10px;
+			margin-right: 10px;
+			text-align: center;
+	}
+} 
+
+
+@media only screen and (max-width: 550px) {
+	.project-header {
+			font-size: 25px;
+			text-align: center;
+	}
+} 
+
+.project-article {
+	text-align: justify;
+} 
+
+@media only screen and (max-width: 698px) {
+	.project-article {
+			text-align: left;
+	}
+} 
+
+.project-sub-header {
+	text-align: left;
+	color: #1c87c9;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+@media only screen and (max-width: 432px) {
+	.project-sub-header {
+			font-size: 25px;
+			margin-top: 15%;
+	}
+} 
+
+@media only screen and (max-width: 372px) {
+	.project-sub-header {
+			font-size: 20px;
+			margin-left: 0px;
+	}
+} 
+
+
+
+
+/*========= STYLING FOR THE FOOTER SECTION ===========*/
+
+.footer {
+	background: #152F4F;
+	color:white;
+}
+
+	.links{
+		list-style: none;
+		ul {list-style-type: none;}
+	  li a{
+		color: white;
+		transition: color .2s;
+		&:hover{
+		  text-decoration:none;
+		  color:#4180CB;
+		  }
+	  }
+	}  
+
+	.about-company{
+	  i{font-size: 25px;}
+	  a{
+		color:white;
+		transition: color .2s;
+		&:hover{color:#4180CB}
+	  }
+	} 
+
+	.location{
+	  i{font-size: 18px;}
+	}
+
+	.copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+
+  .fb-logo{
+     color: #007bff !important;
+  }
+
